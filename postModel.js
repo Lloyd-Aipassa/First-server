@@ -1,14 +1,30 @@
 const mongoose = require("mongoose");
 const schema = mongoose.Schema(
-	{
-		title: "string",
-		content: "String",
-	},
-
-	{
-		timestamps: true,
-	}
+		  {
+			"Locatie": "string",
+			"Datum": "string",
+			"NieuweSchade": "string",
+			"AcuteActieVereist": "string",
+			"SoortSchade": "string",
+			"Omschrijving": "string",
+			"AcuteActieVereistMaintenance": "string",
+			"TypeOfMaintenance": "string",
+			"modificationLocatie": "string",
+			"ModificationDescription": "string",
+			"PerformedBy": "string",
+			"ModificationComment": "string",
+			"requiredAction": "string",
+			"TypeInstallation": "string",
+			"Aproved": "string",
+			"ReportedMalfunction": "string",
+			"Comments": "string",
+		  }	
 );
 
-const post = mongoose.model("Post", schema);
-module.exports = post;
+const test2 = mongoose.model("Schade", schema);
+module.exports = test2;
+
+
+
+
+
