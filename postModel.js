@@ -9,6 +9,7 @@ const schema = mongoose.Schema(
 			"Omschrijving": "string",
 			"AcuteActieVereistMaintenance": "string",
 			"TypeOfMaintenance": "string",
+			"CostOfMaintenance": "string",
 			"modificationLocatie": "string",
 			"ModificationDescription": "string",
 			"PerformedBy": "string",
